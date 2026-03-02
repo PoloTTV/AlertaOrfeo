@@ -37,6 +37,11 @@ body
     transform: translateY(-100px);
     animation: logoEntrada 2s ease-out forwards;
 }
+iframe
+{
+    height: auto;
+    width: 200px;
+}
 @keyframes logoEntrada  {
     from {
         opacity: 0;
